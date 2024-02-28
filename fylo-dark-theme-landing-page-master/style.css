@@ -95,10 +95,36 @@ body{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-bottom: 200px;
 }
 .para{
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 30%;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 35px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.card{
+    background-color: hsl(219, 30%, 18%);
+    padding: 0 30px;
+}
+.author>img{
+    border-radius: 50%;
+    width: 30px;
+}
+.author{
+    display: flex;
+
+}
+.quote{
+    position: relative;
+    top: -135px;
+    left: -38px;
+    z-index: -1;
 }
